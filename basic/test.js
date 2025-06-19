@@ -11,5 +11,13 @@ console.table([accId,accEmail,accPswd,accState,accCity])
 
 "use strict";
 console.log(typeof accState);
+console.log(typeof(accId));
+
+let no="34gg"
+let No=Number(no)
+
+console.log(typeof(No));
+console.log(No);
+
 
 //alert(2+5)
