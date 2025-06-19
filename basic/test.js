@@ -7,5 +7,9 @@ let accCity;
 
 //accId=36
 console.log(accId);
-console.table({accId,accEmail,accPswd,accState,accCity})
+console.table([accId,accEmail,accPswd,accState,accCity])
 
+"use strict";
+console.log(typeof accState);
+
+//alert(2+5)
